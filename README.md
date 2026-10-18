@@ -1,39 +1,76 @@
-# Tejaswi Mahajan Portfolio — V3
+# 👋 Hi, I'm Tejaswi Mahajan
 
-Cinematic dark + gold placement portfolio.
+### Aspiring Developer | Web Development Enthusiast | Problem Solver
 
-## V3 features
-- Project cards open full case-study modals.
-- Keyboard support: Enter/Space opens a project; Arrow Left/Right switches projects; Escape closes.
-- Skills cards have a **double highlighted gold border** on hover.
-- Individual technology chips also get gold border/glow on hover.
-- Real contact form UI with validation, honeypot anti-spam field, and EmailJS integration hook.
-- Resume download wired to `assets/Tejaswi_Mahajan_Resume.pdf`.
-- Optional GA4 analytics hook; inactive until a real measurement ID is configured.
-- SEO/meta/Open Graph/favicon assets included.
-- Responsive desktop/tablet/mobile layout.
-- No live-demo links and no GitHub API integration, per request.
+Welcome to my personal portfolio repository! This project showcases my skills, projects, and journey as a developer. I built this portfolio to present my work, explore modern web development, and continuously improve my technical skills.
 
-## Enable EmailJS
-1. Create an EmailJS account and email service/template.
-2. In `script.js`, replace:
-   - `YOUR_EMAILJS_PUBLIC_KEY`
-   - `YOUR_EMAILJS_SERVICE_ID`
-   - `YOUR_EMAILJS_TEMPLATE_ID`
-3. The form fields sent are `from_name`, `reply_to`, `subject`, and `message`.
-4. Do not put private/server secrets in frontend code.
+## 🚀 About Me
 
-## Enable Google Analytics 4
-Replace `G-XXXXXXXXXX` in `CONFIG.analyticsId` inside `script.js` with your GA4 Measurement ID.
+I'm Tejaswi Mahajan, a passionate learner interested in software development and building practical, user-friendly web applications.
 
-## Run locally
-Use any static server. For example:
+I enjoy exploring new technologies, solving problems, and turning ideas into functional digital experiences. I'm continuously working to strengthen my programming skills and prepare for opportunities in the software industry.
 
-```bash
-python -m http.server 5500
+## 💻 Technologies Used
+
+- **HTML5** — Website structure and content
+- **CSS3** — Styling, layouts, and responsive design
+- **JavaScript** — Interactive functionality and dynamic behavior
+- **Git & GitHub** — Version control and project management
+
+## ✨ Portfolio Highlights
+
+- Personal introduction and developer profile
+- Skills and technical interests
+- Project showcase
+- Clean and user-friendly interface
+- Contact and professional information
+
+*The highlights above should reflect the features actually implemented in the website.*
+
+## 📂 Project Structure
+
+```text
+Portfolio/
+├── assets/       # Images and other project assets
+├── index.html    # Main webpage
+├── style.css     # Styles and layout
+├── script.js     # JavaScript functionality
+└── README.md     # Project documentation
 ```
 
-Then open `http://localhost:5500`.
+## ⚙️ How to Run Locally
 
-## Deploy
-This is a static site and is ready for Vercel, Netlify, GitHub Pages, or any static HTTPS host.
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/Tejaswi-2007/Portfolio.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Portfolio
+   ```
+
+3. Open `index.html` in your browser, or use the Live Server extension in Visual Studio Code.
+
+## 🎯 My Goals
+
+- Strengthen my frontend development skills.
+- Build practical, real-world projects.
+- Learn industry-standard development tools and workflows.
+- Improve my problem-solving and software development abilities.
+- Prepare for internships and placement opportunities.
+
+## 👩‍💻 Author
+
+**Tejaswi Mahajan**
+
+- GitHub: [@Tejaswi-2007](https://github.com/Tejaswi-2007)
+- Portfolio Repository: [Portfolio](https://github.com/Tejaswi-2007/Portfolio)
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository!
+
+*Built with curiosity, creativity, and a commitment to continuous learning.*
